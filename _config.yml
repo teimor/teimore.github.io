@@ -21,8 +21,8 @@
 title: Teimor's undecided blog
 description: >- # this means to ignore newlines until "baseurl:"
   I didn't decide what I will be in this blog, but let's just get started.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "teimore.github.io"
+baseurl: "https://teimore.github.io/" # the subpath of your site, e.g. /blog
+url: "https://teimore.github.io/"
 github_username:  teimore
 
 # Build settings
