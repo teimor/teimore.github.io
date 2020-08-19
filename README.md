@@ -8,9 +8,7 @@
 
     ```bash
     bundle install
-    ```
-
-    
+    ```    
 
 3. Run using the command 
     ```bash

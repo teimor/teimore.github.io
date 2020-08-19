@@ -19,16 +19,24 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Teimor's undecided blog
+# email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  I didn't decide what I will be in this blog, but let's just get started.
+  Welcome to my blog site, I didn't decide what will be in this blog, but let's just get started.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://teimore.github.io"
+
+author: Teimor Epstein
 github_username:  teimore
+paginate: 10
+date_format: "%b %-d, %Y"
+
+skin: Midnight
+lang: en
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hamilton
 plugins:
-  - jekyll-feed
+  - jekyll-theme-hamilton
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -38,14 +46,10 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
